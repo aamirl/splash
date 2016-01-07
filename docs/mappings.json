@@ -1,0 +1,126 @@
+PUT /sellyx/_mapping/promotions
+{
+    "promotions": {
+        "properties" : {
+            "seller" : {
+            "type" : "string",
+            "index" : "not_analyzed"
+            },
+            "items": {
+                "type" : "nested",
+                "properties" : {
+                    "listing" : {
+                        "type" : "string",
+                        "index" : "not_analyzed"
+                        },
+                    "product" : {
+                        "type" : "string",
+                        "index" : "not_analyzed"
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+PUT /sellyx/_mapping/products
+{
+    "products": {
+        "properties" : {
+            "sellers": {
+                "type" : "nested",
+                "properties" : {
+                    "seller" : {
+                        "type" : "object",
+                        "properties" : {
+                            "coordinates" : {
+                                "type" : "geo_point",
+                                "lat_lon" : "true",
+                                "validate_lat" : "true",
+                                "validate_lon" : "true"
+                                }
+                            }
+                        }
+                    }
+                },
+            "combos": {
+                "type" : "nested"
+                },
+            "reviews": {
+                "type" : "nested"
+                }
+            }
+        }
+    }
+
+PUT /sellyx/_mapping/sellers
+{
+    "sellers": {
+        "properties" : {
+            "reviews": {
+                "type" : "nested"
+                }
+            }
+        }
+    }
+
+PUT /sellyx/_mapping/orders
+{
+    "orders": {
+        "properties" : {
+            "items": {
+                "type" : "nested"
+                }
+            }
+        }
+    }
+
+PUT /sellyx/_mapping/listings
+{
+    "listings": {
+        "properties" : {
+            "interests" : {
+                "type":"nested"    
+                },
+             "questions" : {
+                "type":"nested"    
+                },
+            "location" : {
+                "properties" : {
+                    "coordinates" : {
+                        "type" : "geo_point",
+                        "lat_lon" : "true",
+                        "validate_lat" : "true",
+                        "validate_lon" : "true"
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+PUT /sellyx/_mapping/messages
+{
+    "messages": {
+        "properties" : {
+            "users" : {
+                "type":"nested"    
+                },
+            "messages" : {
+                "type":"nested"    
+                }
+            }
+        }
+    }
+
+
+PUT /sellyx/_mapping/offers
+{
+    "offers": {
+        "properties" : {
+            "affiliates" : {
+                "type":"nested"    
+                }
+            }
+        }
+    }

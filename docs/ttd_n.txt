@@ -1,0 +1,123 @@
+new ttd
+	LAST MINUTE
+		write up terms and conditions
+		determine product restrictions
+		finish list of carriers
+		finish list of couriers
+		get all country codes
+		integrate dhl, ups and usps into system
+
+	GENERAL
+		subtract from quantity when order is successfully placed
+		estimate delivery times based on shipping speeds chosen
+		apply condition settings in mass
+		put image holds; make sure user uploads at least a certain amount of pics and check for that number on the back end
+		seller registration
+		user registration
+		splash site
+		
+	CORPORATE
+		users
+		sellers
+
+	MANAGER
+
+		seller account
+			update stripe information when we update account information as well
+		verifications
+		facebook/twitter/linkedin/google+ logins
+		
+	FRONT
+
+		listing details
+		reputation/social
+		finish categories
+		make categories front page
+		finish building seller page
+		product filters
+		favorite items
+
+WHEN YOU FOLLOW SOMEONE YOU GIVE THEM SOME OF YOUR REPUTATION WHICH YOU CAN EARN IN OTHER WAYS
+
+	MANAGER PRO
+
+		chat service
+		open company branches
+		work order
+		customize documents
+		storage
+		add product to different locations
+		bulk product upload
+		be able to send old customers or people who have bought items from them coupons and promos and deals
+		rich editing for descriptions
+		employee todo list with orders
+		add privileges
+		add and manage employees
+		replenishment emails
+		build ecommerce ecosystem on sellyx admin section to allow small companies to control employees, etc
+		allow for personalization of seller pages
+		allow media page on seller page
+		book conference rooms
+		calendars
+		replenish emails
+		heat maps
+		coupon locker
+		video chat
+		advertising reports
+		download statement pdfs
+
+	FUTURE
+
+		print labels for returns and for new packages
+		add performance tab	
+		add success check for buttons that are successfully completed
+		product discovery algorithms
+		curate user home page to what you want it to look like
+		statement clickable
+		help files
+		build menu
+		tangilbee
+		massdrop
+		give customers the ability to submit videos of themselves using products, and in return get paid by sellers
+		feed of sellers following, their products
+		tool to help affiliates create instagram pictures?
+		sellyx advising
+		sellyx drive
+		sellyx video reviews
+		local delivery
+		reviews home where you can see top reviews for each category 
+		top buyers recognition
+		sell giftcards people dont want anymore for cash
+		add digital media for purchase
+		rating review summary
+		fit?
+		instabuy
+		give user incentives to post good reviews that are upvoted and reputations
+		tax calculations
+		figure out payment schemes for professional sellers > $10000+ monthly revenue = 1% of total revenue
+		ajax advertising
+		phone call and email and text
+		let users print international customs duties forms
+		create and build perfectsize
+		let user choose panel category
+		gumroad style
+		order summary on order page
+		sellyx ratings
+		build inventory add product modal - CRUD
+		show seller promotions
+		recommended panel
+		book previews
+		discount surveys for customers
+		lazy load images
+		stolen item search
+		colorbox community page
+
+	----------------------------------------------------------------------------------------------
+
+	SOCIAL INTERACTION
+		sellers can control different rewards for joining a feed
+			joined for less than a month - something
+			joined for 3 months - something
+			joined for 6 months - something
+			joined for a year - something
+		

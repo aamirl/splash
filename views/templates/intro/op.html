@@ -1,0 +1,54 @@
+<body class="coming-soon">
+
+	<!-- Page Loader -->
+
+	<div class="loader">
+		<div class="spinner">
+			<div class="rect1"></div>
+			<div class="rect2"></div>
+			<div class="rect3"></div>
+			<div class="rect4"></div>
+			<div class="rect5"></div>
+		</div>
+	</div><!-- End of Page Loader -->
+	
+	
+	<div class="theme-background-section full-screen fs-overlay" data-custom-height="" data-offset-container="">
+		<video autoplay loop id="video-background" class="video-bg" poster="../dist/video/girl.jpg">
+			<source src="../dist/video/broadway.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+			<source src="../dist/video/broadway.ogv" type="video/ogv">
+		</video>
+		<div class="content-container">
+			<div class="content-inner-container text-center">
+				<div class="container-fluid">
+					<div class="row text-light letter-spacing-2">
+						<div class="col-md-12">
+							<img alt="image" src="images/logo.png" width="150"/><br/>
+							<div id="countdown" class="pad-top-50 pad-bot-50 letter-spacing-2" style="font-size:20px;"></div>
+							<div class="row">
+								
+								<div class="col-md-6 col-md-offset-3 mar-top-30">
+									<form class="form-theme form-transparent form-md form-subscribe">
+										<input type="text" class="form-control text-uppercase letter-spacing-2" placeholder="Your Email Address">
+										<span class="subscribe-btn">
+											<button type="button" class="btn btn-dark">Request Invite</button>
+										</span>
+									</form>
+									<h6 class="text-right text-uppercase mar-top-10 letter-spacing-2"><small>*We never spam</small></h6>
+								</div>
+								<div class="col-md-6 col-md-offset-3 letter-spacing-2">
+									<span class="text-left"><span><i class="icon-envelope"></i> contact@sellyx.com</span> | <span>&copy; 2016 Sellyx, Inc.</span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	{{>intro/scripts}}
+	
+	<script src="../dist/vendor/countdown/js/jquery.countdown.min.js"></script>
+
+</body>
